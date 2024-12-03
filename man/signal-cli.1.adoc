@@ -660,7 +660,7 @@ Update the info associated to a number on our contact list.
 This change is only local but can be synchronized to other devices by using `sendContacts` (see below).
 If the contact doesn't exist yet, it will be added.
 
-NUMBER::
+RECIPIENT::
 Specify the contact phone number.
 
 *--given-name* NAME, *--name* NAME::
@@ -677,7 +677,7 @@ To disable expiration set expiration time to 0.
 
 Remove the info of a given contact
 
-NUMBER::
+RECIPIENT::
 Specify the contact phone number.
 
 *--hide*::
@@ -691,7 +691,7 @@ Delete all data associated with this contact, including identity keys and sessio
 Block the given contacts or groups (no messages will be received).
 This change is only local but can be synchronized to other devices by using `sendContacts` (see below).
 
-[CONTACT [CONTACT ...]]::
+[RECIPIENT [RECIPIENT ...]]::
 Specify the phone numbers of contacts that should be blocked.
 
 *-g* [GROUP [GROUP ...]], *--group-id* [GROUP [GROUP ...]]::
